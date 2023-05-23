@@ -17,6 +17,8 @@
 
 When running `prediction_ensemble.ipynb` change files paths. 
 
+## Uniqueness of the Project
+
 * The speciality of this project is development of ensemble loss function which uses Metric mentioned in the Competition as a weight for 
 focal loss ensembled with equilized loss function. 
 
@@ -29,3 +31,12 @@ labels with class_id as labels. If first stage predicts 0 then for next stage th
  and similarly for other label at first stage.
  
  To run hierarchical prediction run `prediction_hierarchical.ipynb` file. (Note: It is last minute experiment, models may not perform well)
+ Models for `prediction_hierarchical.ipynb` are - 
+ 
+ ```
+models/non_v-clef2023_vit_small_384_ensemble_focal_05-22-2023_12-38-44.pth
+models/venom-clef2023_vit_small_384_ensemble_focal_05-22-2023_05-09-10.pth
+models/vornot-clef2023_vit_small_384_efocal_05-22-2023_16-25-34.pth
+ ```
+ 
+ 
