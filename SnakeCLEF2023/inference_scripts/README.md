@@ -1,6 +1,7 @@
 ## Inference
 
 * Dowload test dataset [HuggingFace SnakeCLEF2023](https://huggingface.co/spaces/competitions/SnakeCLEF2023) and keep at path `../../`
+* Download Model [arti00/snakeCLEF2023-classification-model](https://huggingface.co/arti00/snakeCLEF2023-classification-model/tree/main)
 
 | Model Arch              | Model Name                                                                  | Prediction File           |
 | ----------------------- | ----------------------------------------------------------------------------| ------------------------- |
