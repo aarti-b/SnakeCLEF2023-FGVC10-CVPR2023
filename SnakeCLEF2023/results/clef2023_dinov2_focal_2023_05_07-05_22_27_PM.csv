@@ -1,0 +1,2 @@
+epoch,train_loss,valid_loss,accuracy,snake_score,top_3,f1_score,time
+0,2.038304,3.439321,0.286180,15666,0.451725,0.153683,2:36:31
