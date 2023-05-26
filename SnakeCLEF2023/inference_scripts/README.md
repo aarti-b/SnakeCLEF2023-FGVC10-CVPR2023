@@ -13,7 +13,7 @@
 
 
 
-* Keep model files in ../results/models/
+* Keep model files in `../results/models/`
 * The prediction file will generate 2 `csv` files. `test_prediction.csv` has all duplicate `observation_id` while `snake_prediction.csv` has unique `observation_id` and is the final output file.
 
 * run `python3 prediction.py --data_dir ../../ --model_arch <model_architectures> --model_name <filename_of_model> --data_csv <path_to_test_csv> --model_path <model_directory>` 
