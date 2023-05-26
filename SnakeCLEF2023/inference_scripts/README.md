@@ -8,14 +8,19 @@
 | deit_base_distilled_384 | clef2023_deit_base_distilled_384_efocal_05-12-2023_12-14-53.pth             | prediction.py /ipynb       |
 | deit_base_distilled_384 | clef2023_deit_base_distilled_384_ensemble_focal_05-15-2023_12-27-11.pth     | prediction.py /ipynb       |
 | efficientnet_b0         | clef2023_efficientnet_b0_focal_05-10-2023_02-33-37.pth                      | prediction.py /ipynb       |
-|                         | ensemble-model-clef2023_vit_small_384_ensemble_focal_05-14-2023_02-18-03.pth| prediction_ensemble.ipynb |
+|      -----              | ensemble-model-clef2023_vit_small_384_ensemble_focal_05-14-2023_02-18-03.pth| prediction_ensemble.ipynb |
 
 
 
+
+* Keep model files in ../results/models/
+* The prediction file will generate 2 `csv` files. `test_prediction.csv` has all duplicate `observation_id` while `snake_prediction.csv` has unique `observation_id` and is the final output file.
 
 * run `python3 prediction.py --data_dir ../../ --model_arch <model_architectures> --model_name <filename_of_model> --data_csv <path_to_test_csv> --model_path <model_directory>` 
 
 When running `prediction_ensemble.ipynb` change files paths. 
+
+
 
 ## Uniqueness of the Project
 
