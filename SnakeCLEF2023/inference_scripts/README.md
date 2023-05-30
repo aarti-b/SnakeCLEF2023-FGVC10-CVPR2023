@@ -30,8 +30,8 @@ focal loss ensembled with equilized loss function.
 * Another different point is concatenation of outer layer is done in ensemble method, It can work better if trained more epoch with more 
 resources.
 
-* An experiment was done by building hierarchical method where firstly model is inferring 0 or 1 based one 2 classes i.e venom or not venom.
-Then for next stage two models are trained separately trained, one on venomous lables with class_id as lables and another with non-venomous
+* An experiment was done by building hierarchical method where firstly model is inferring 0 or 1 based on 2 classes i.e venom or not venom.
+Then for next stage two models are separately trained, one on venomous labels with class_id as labels and another with non-venomous
 labels with class_id as labels. If first stage predicts 0 then for next stage the prediction goes to the model trained on non-venom dataset
  and similarly for other label at first stage.
  
